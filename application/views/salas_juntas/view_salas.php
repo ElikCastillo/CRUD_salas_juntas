@@ -22,7 +22,7 @@ header("Refresh: 30; URL='salas_juntas'"); //actualizar pagina cada 30 segundos 
 					<div class="col-sm-4">
 					  <div class="panel <?= $value->status ? 'panel-danger' : 'panel-primary' ?> ">
 					    <div class="panel-heading">
-					      <h3 class="panel-title"><?=$value->id?> Nombre: <?=$value->nombre?></h3>
+					      <h3 class="panel-title">Nombre: <?=$value->nombre?></h3>
 					    </div>
 					    <div class="panel-body">
 					      	Fecha inicio: <?= $value->fecha_inicio ? date(get_date_format()." ".get_time_format(), strtotime($value->fecha_inicio)) : '' ?> </br>
