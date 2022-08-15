@@ -15,7 +15,7 @@
     <script src="<?php echo base_url() . 'assets/listado/js/bootstrap.min.js?'; ?>"></script>
     <script src="<?php echo base_url() . 'assets/listado/js/modernizr.custom.js?'; ?>"></script>
     <script src="<?php echo base_url() . 'assets/js/all.js?'; ?>" type="text/javascript" charset="UTF-8"></script>
-
+    <link rel="icon" href="favicon.png">
     <script type="text/javascript">
     var SITE_URL = "<?php echo site_url(); ?>";
     var BASE_URL = "<?php echo base_url(); ?>";
